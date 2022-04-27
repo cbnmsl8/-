@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"lib": ["ESNext"],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "ESNext",
+		"outDir": "build",
+		"sourceMap": false,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"allowSyntheticDefaultImports": true,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"resolveJsonModule": true,
+		"strict": true,
+		"strictBindCallApply": true,
+		"strictFunctionTypes": true,
+		"strictNullChecks": true,
+		"strictPropertyInitialization": true,
+		"alwaysStrict": true,
+		"pretty": true,
+		"declaration": false
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "build"]
+}
